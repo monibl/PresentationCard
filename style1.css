@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;700&display=swap');
+
+
+body {
+    background-image: url(https://fondosmil.com/fondo/32016.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.container {
+    margin: 0px;
+    height: 97vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.card {
+    z-index: 3;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to top right, #111, #222);
+    min-width: 280px;
+    width: 500px;
+    max-width: 500px;
+    height: 30em;
+    border-radius: 20px;
+    box-shadow: 10px -10px 4px 4px #111f;
+}
+
+.figure {
+    position: absolute;
+    top: -65px;
+    border: 5px solid #000;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.img {
+    width: 100%;
+}
+
+p {
+    background-color: #111;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    color: white;
+}
+
+.redes {
+    position: absolute;
+    bottom: 55px;
+    width: 95%;
+    height: 200px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 5px;
+    justify-items: center;
+}
+
+.redes div {
+    display: flex;
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes div:hover {
+    background-color: #111;
+}
+
+.redes div div {
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #111;
+    text-align: center;
+    width: auto;
+    color: white;
+}
+
+.redes div div i {
+    position: relative;
+    right: 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mail:hover {
+    cursor: pointer;
+}
+
+.formulario {
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    width: 98%;
+}
+
+.form {
+    background-image: linear-gradient(to bottom left, #111, #222);
+    border: 2px solid black;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+    width: fit-content;
+    transition: all 1s;
+}
+
+.container-form {
+    position: relative;
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+
+.back-buttom {
+    position: absolute;
+    top: -40px;
+    width: 100%;
+    background-color: #222;
+    height: 45px;
+    border: 3px solid #111;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.back-buttom img {
+    width: 50px;
+    height: 40px;
+    margin-top: 2px;
+}
+
+.form-title {
+    color: white;
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+}
+
+.form-imput {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .8em 1em;
+    outline: none;
+    border: none;
+    border: 1px solid #bbb0b0;
+    border-radius: 0.5em;
+}
+
+.form-imput--message {
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+}
+
+.form-cta {
+    border-radius: 0.5em;
+    font-family: inherit;
+    background-color: #089fe0;
+    color: white;
+    border: none;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: .7em 0;
+    cursor: pointer;
+}
+
+.correo:hover > .form {
+    background-image: #fff;
+}
+
